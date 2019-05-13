@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module BlockchainClient
-  class Mynt < Base
+  class Ravencoin < Base
     def initialize(*)
       super
       @json_rpc_call_id  = 0
