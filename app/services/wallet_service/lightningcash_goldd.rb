@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletService
-  class LightningCash_Goldd < Base
+  class Lightningcash_goldd < Base
 
     def create_address(options = {})
       @client.create_address!(options)
