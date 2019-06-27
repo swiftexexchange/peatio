@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module BlockchainClient
-  class LightningCash < Base
+  class Lightningcash < Base
     def initialize(*)
       super
       @json_rpc_call_id  = 0
