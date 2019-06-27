@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletClient
-  class LightningCash_Goldd < Base
+  class Lightningcash_goldd < Base
 
     def initialize(*)
       super
