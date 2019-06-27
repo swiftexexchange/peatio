@@ -1,6 +1,6 @@
 <h3>Blockchain info</h3>
 
-<% @blockchain_clients = [['Bitcoin', 'bitcoin'], ['Bitcoin Cash', 'bitcoincash'], ['Dash', 'dash'], ['Dogecoin', 'dogecoin'], ['Geth', 'geth'], ['LightningCash Gold', 'lightningcash'], ['Litecoin', 'litecoin'], ['Mynt', 'mynt'], ['MYMN', 'mymn'], ['Oasis', 'oasis'], ['Parity', 'parity'], ['Pigeoncoin', 'pigeoncoin'], ['Ravencoin', 'ravencoin'], ['Ripple', 'ripple'], ['SMRTCD', 'smrtcd']] %>
+<% @blockchain_clients = [['Bitcoin', 'bitcoin'], ['Bitcoin Cash', 'bitcoincash'], ['Brig', 'brig'], ['Cubex', 'cubex'], ['Dash', 'dash'], ['Delor', 'delor'], ['Dogecoin', 'dogecoin'], ['Geth', 'geth'], ['Henga', 'henga'], ['LightningCash Gold', 'lightningcash'], ['Litecoin', 'litecoin'], ['Mynt', 'mynt'], ['MYMN', 'mymn'], ['Oasis', 'oasis'], ['Parity', 'parity'], ['Pigeoncoin', 'pigeoncoin'], ['Qambling Chain', 'qamblingchain'], ['Ravencoin', 'ravencoin'], ['Ripple', 'ripple'], ['SMRTCD', 'smrtcd'], ['Vetani', 'vetani'], ['Wino', 'wino'], ['Xando', 'xando'], ['Xano', 'Xano']] %>
 
 <%= form_for @blockchain, url: @blockchain.new_record? ? admin_blockchains_url : admin_blockchain_url(@blockchain.id) do |f| %>
   <div class="card-deck float-left col-lg-<%= @blockchain.new_record? ? '12' : '10' %>">
