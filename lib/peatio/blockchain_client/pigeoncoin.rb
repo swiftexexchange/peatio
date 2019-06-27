@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module BlockchainClient
-  class Pigeon < Base
+  class Pigeoncoin < Base
     def initialize(*)
       super
       @json_rpc_call_id  = 0
