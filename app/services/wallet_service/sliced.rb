@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletService
-  class sliced < Base
+  class Sliced < Base
 
     def create_address(options = {})
       @client.create_address!(options)
