@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletClient
-  class Oasisd < Base
+  class Hengad < Base
 
     def initialize(*)
       super

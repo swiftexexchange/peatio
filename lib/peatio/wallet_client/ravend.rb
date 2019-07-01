@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletClient
-  class Ravencoind < Base
+  class Ravend < Base
 
     def initialize(*)
       super
