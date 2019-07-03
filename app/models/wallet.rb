@@ -11,7 +11,7 @@ class Wallet < ApplicationRecord
   ENUMERIZED_KINDS = { deposit: 100, fee: 200, hot: 310, warm: 320, cold: 330 }.freeze
   enumerize :kind, in: ENUMERIZED_KINDS, scope: true
 
-  GATEWAYS = %w[australiacashd bitcoind bitcoincashd bitgo brigd bsha3d cubd dashd delord deimosd devaultd dogecoind geth genixd hengad lightningcash_goldd mymnd myntd litecoind mazad oasisd odind parity pigeond pownodesd ritod ravend qamblingchaind rippled sliced vetanid winod xandod xanod].freeze
+  GATEWAYS = %w[australiacashd bitcoind bitcoincashd bitgo brigd bsha3d cubd dashd delord deimosd devaultd dogecoind geth genixd hengad lightningcash_goldd mymnd myntd litecoind mazad oasisd odind parity pigeond pownodesd ritod ravend qamblingchaind rippled sliced vetanid winod xandod xanod zenzod].freeze
   
   SETTING_ATTRIBUTES = %i[ uri
                            secret
