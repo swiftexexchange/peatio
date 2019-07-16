@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletService
-  class Litecoind < Bitcoind
+  class Australiacashd < Bitcoind
 
   end
 end

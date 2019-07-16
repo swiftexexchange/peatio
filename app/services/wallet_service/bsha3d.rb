@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletService
-  class Bsha3 < Base
+  class Bsha3d < Base
 
     def create_address(options = {})
       @client.create_address!(options)

@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletService
-  class Dogecoind < Base
+  class Genixd < Base
 
     def create_address(options = {})
       @client.create_address!(options)
