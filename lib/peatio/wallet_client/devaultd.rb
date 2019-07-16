@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletClient
-  class Ritod < Base
+  class Devaultd < Base
 
     def initialize(*)
       super
