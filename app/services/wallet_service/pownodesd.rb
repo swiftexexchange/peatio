@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 module WalletService
-  class Vetanid < Bitcoind
+  class Pownodesd < Bitcoind
 
   end
 end
