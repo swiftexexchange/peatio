@@ -11,9 +11,13 @@ class ActionDispatch::Routing::Mapper
 end
 
 Peatio::Application.routes.draw do
-
   draw :admin
-
+  get  'tos' => 'static_pages#tos', as: 'tos'
+  get  'faq' => 'static_pages#faq', as: 'faq'
+  get  'listing' => 'static_pages#listing', as: 'listing'
+  get  'delisting' => 'static_pages#delisting', as: 'delisting'
+  get  'status' => 'static_pages#status', as: 'status'
+  
   get '/swagger', to: 'swagger#index'
 
   mount API::Mount => API::Mount::PREFIX
