@@ -24,8 +24,9 @@ class StaticPagesController < ApplicationController
   end
 
   def contest
-	@currencies        = Currency.all.sort
+	  @currencies = Currency.all
     @blockchains = Blockchain.all
     @markets = Market.all
+    @trade = Trade.all
   end
 end
