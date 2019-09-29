@@ -10,6 +10,7 @@ module API
         mount Public::MemberLevels
         mount Public::Tools
         mount Public::Fees
+        mount Public::Blocks
       end
     end
   end
